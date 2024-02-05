@@ -1,70 +1,42 @@
-# E-commerce Customer Segmentation using K-Means Clustering
-This project aims to leverage K-Means clustering to segment customers based on their search behaviour on a well-known e-commerce website. By analyzing purchase patterns and search preferences, we can gain valuable insights to improve marketing strategies and personalize customer experiences.
+
+E-commerce Customer Segmentation using K-Means Clustering
+Abstract:
+
+This project aims to leverage K-means clustering to segment customers of a well-known e-commerce website based on their search behavior. By analyzing their past purchase patterns and brand search frequency, the project seeks to uncover valuable insights into customer preferences and purchase trends. This knowledge can then be used to personalize marketing campaigns, improve product recommendations, and ultimately increase sales.
 
 Problem Statement:
 
-Given a dataset containing customer information like gender, number of orders, and brand search frequencies, use K-Means clustering to:
+Given a dataset containing customer search data from an e-commerce website, this project utilizes the K-means clustering algorithm to:
 
-Identify distinct customer segments based on their search behaviour.
-Understand purchasing patterns within each segment.
+Identify groups of customers with similar search and purchase patterns.
+Obtain valuable insights into customer preferences and behavior.
+Develop data-driven strategies for improved marketing and customer engagement.
 Dataset:
 
-Source: Well-known e-commerce website.
-Timeframe: Data collected over a specified period.
-Features:
-Cust_ID (Unique customer identifier)
-Gender (Customer gender)
-Orders (Number of past orders)
-35 brand features (Times each customer searched specific brands)
-Methodology:
+The dataset consists of customer information including:
 
-Data Preprocessing:
-Address missing values using appropriate techniques (e.g., imputation, deletion).
-Normalize or scale brand search frequencies for better clustering.
-K-Means Clustering:
-Implement K-Means clustering algorithm to group customers based on their search behaviour.
-Determine the optimal number of clusters (k) using techniques like the silhouette score.
-Analysis and Interpretation:
-Analyze the characteristics of each customer segment (e.g., dominant brands searched, average order count).
-Draw insights into purchasing patterns and customer preferences within each segment.
-Learning Outcomes:
-
-Gain hands-on experience with K-Means clustering for customer segmentation.
-Understand the relationship between customer search behaviour and purchase patterns.
-Leverage data analysis to inform marketing strategies and personalize customer experiences.
+Cust_ID: Unique identifier for each customer.
+Gender: Customer's gender.
+Orders: Number of past orders placed by the customer.
+Brands: 35 features representing the number of times each customer searched for specific brands.
 Scope:
 
-This project focuses on K-Means clustering as the primary segmentation technique. Further exploration could involve:
+This project focuses on the following areas:
 
-Comparing K-Means with other clustering algorithms (e.g., hierarchical clustering).
-Incorporating additional customer data (e.g., demographics, purchase history).
-Developing targeted marketing campaigns based on customer segments.
-Prerequisites:
-
-Basic understanding of machine learning and data analysis concepts.
-Familiarity with Python programming language and libraries like pandas and scikit-learn.
-Project Structure:
-
-data/: Contains the e-commerce customer dataset.
-notebooks/: Jupyter notebooks for data analysis and clustering.
-reports/: Generated reports and visualizations.
-requirements.txt: Lists dependencies required for the project.
-Contributing:
-
-Pull requests and suggestions are welcome. Please follow GitHub contribution guidelines.
-
-License:
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Getting Started:
-
-Clone the repository.
-Install required dependencies using pip install -r requirements.txt.
-Open the Jupyter notebooks in notebooks/.
-Follow the instructions and prompts within the notebooks.
-Contact:
-
-For any questions or support, please contact [your contact information].
-
-I hope this provides a comprehensive and informative README file for your E-commerce Customer Segmentation project. Please feel free to customize it further with specific details and instructions relevant to your implementation.
+Data Preprocessing:
+Handle missing values and clean the data for analysis.
+Explore data distribution and identify potential outliers.
+Feature Engineering:
+Create additional features if necessary based on existing data.
+Apply feature scaling to ensure equal importance during clustering.
+K-Means Clustering:
+Determine the optimal number of clusters using techniques like the silhouette score.
+Cluster customers based on their brand search frequency and purchase behavior.
+Analysis and Interpretation:
+Analyze the characteristics of each customer segment.
+Identify trends and patterns within each segment.
+Gain insights into customer preferences and purchase behavior.
+Learning Outcomes:
+Understand the application of K-means clustering in customer segmentation.
+Gain practical experience with data analysis and interpretation.
+Develop skills in drawing insights from customer data for business applications.
