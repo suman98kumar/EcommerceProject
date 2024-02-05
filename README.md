@@ -26,16 +26,20 @@ This project focuses on the following areas:
 Data Preprocessing:
 Handle missing values and clean the data for analysis.
 Explore data distribution and identify potential outliers.
+
 Feature Engineering:
 Create additional features if necessary based on existing data.
 Apply feature scaling to ensure equal importance during clustering.
+
 K-Means Clustering:
 Determine the optimal number of clusters using techniques like the silhouette score.
 Cluster customers based on their brand search frequency and purchase behavior.
+
 Analysis and Interpretation:
 Analyze the characteristics of each customer segment.
 Identify trends and patterns within each segment.
 Gain insights into customer preferences and purchase behavior.
+
 Learning Outcomes:
 Understand the application of K-means clustering in customer segmentation.
 Gain practical experience with data analysis and interpretation.
